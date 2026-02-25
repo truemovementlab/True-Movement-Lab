@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Get Started | True Movement Lab</title>
+  <meta name="description" content="Submit your details to start True Movement Lab coaching. We'll build a program for parkour, climbing, hiking, MTB, trail/ultra, OCR and more." />
+  <meta property="og:title" content="Get Started | True Movement Lab" />
+  <meta property="og:description" content="Submit your details to start True Movement Lab coaching. We'll build a program for parkour, climbing, hiking, MTB, trail/ultra, OCR and more." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#d9b55f" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body class="page-bg repeat-y" style="background-image:url('assets/bg-questionnaire.jpg')">
+  <div class="page-overlay">
+    
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <img src="assets/logo.png" alt="True Movement Lab logo" />
+    <span>True Movement Lab</span>
+  </a>
+
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+
+  <nav class="nav" id="nav" aria-label="Site navigation">
+    <a href="whattoexpect.html">What to Expect</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="ourathletes.html">Our Athletes</a>
+    <a href="faq.html">FAQs</a>
+    <a class="cta" href="questionnaire.html">Get Started</a>
+  </nav>
+</header>
+
+    <main class="main">
+      <div class="container">
+        <section class="card reveal"><div class="card-body">
+          <h1>Get Started</h1>
+          <p class="lead">Fill this out properly — it helps build a program that fits your sport and your body.</p>
+          <form class="form" action="https://formsubmit.co/TrueMovementLab@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New True Movement Lab Questionnaire Submission" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="https://truemovementlab.github.io/TML-web/thanks.html" />
+
+            <div class="form-grid">
+              <label>Name *<input name="Name" required autocomplete="name" /></label>
+              <label>Age *<input name="Age" required inputmode="numeric" /></label>
+              <label>Date of birth<input name="Date of birth" type="date" /></label>
+              <label>Email *<input name="Email" type="email" required autocomplete="email" /></label>
+              <label>Phone *<input name="Phone" required autocomplete="tel" /></label>
+              <label>Emergency contact (name + number) *<input name="Emergency contact" required /></label>
+
+              <label class="full">
+                Activity participating in (select all that apply) *
+                <div class="checks" id="activityChecks">
+                  <label class="check"><input type="checkbox" name="Activity" value="Parkour" /> Parkour</label>
+                  <label class="check"><input type="checkbox" name="Activity" value="Bouldering/Climbing" /> Bouldering / Rock Climbing</label>
+                  <label class="check"><input type="checkbox" name="Activity" value="Hiking" /> Hiking</label>
+                  <label class="check"><input type="checkbox" name="Activity" value="Mountain Biking" /> Mountain Biking</label>
+                  <label class="check"><input type="checkbox" name="Activity" value="Trail Running / Ultra" /> Trail / Ultra Running</label>
+                  <label class="check"><input type="checkbox" name="Activity" value="Obstacle Course Racing (OCR)" /> Obstacle Course Racing (OCR)</label>
+                  <label class="check"><input type="checkbox" name="Activity" value="Other" /> Other (write below)</label>
+                </div>
+                <input type="hidden" id="activityRequired" name="Activity selection validation" value="" />
+                <div class="tiny">Select at least one.</div>
+              </label>
+
+              <label class="full">Other sport (if applicable)<input name="Other sport" /></label>
+
+              <label>
+                Experience level *
+                <select name="Experience level" required>
+                  <option value="" selected disabled>Select…</option>
+                  <option>Beginner</option>
+                  <option>Intermediate</option>
+                  <option>Advanced</option>
+                </select>
+              </label>
+
+              <label>
+                Fitness level *
+                <select name="Fitness level" required>
+                  <option value="" selected disabled>Select…</option>
+                  <option>Low</option>
+                  <option>Moderate</option>
+                  <option>High</option>
+                </select>
+              </label>
+
+              <label class="full">Any medical conditions?<textarea name="Medical conditions" rows="3"></textarea></label>
+              <label class="full">Any injuries or pain?<textarea name="Injuries or pain" rows="3"></textarea></label>
+              <label class="full">Any recent illness or surgery?<textarea name="Recent illness or surgery" rows="3"></textarea></label>
+              <label class="full">Taking any medications?<textarea name="Medications" rows="2"></textarea></label>
+              <label class="full">Any allergies?<textarea name="Allergies" rows="2"></textarea></label>
+              <label class="full">Anything else we should know?<textarea name="Anything else" rows="4"></textarea></label>
+
+              <label class="full consent">
+                <input type="checkbox" name="Consent" value="I understand there are risks involved in participation" required />
+                I understand there are risks involved in participation. *
+              </label>
+
+              <label>Participant signature (type full name) *<input name="Signature (typed)" required /></label>
+              <label>Date *<input name="Signature date" type="date" required /></label>
+            </div>
+
+            <div class="actions">
+              <button class="btn primary" type="submit">Send questionnaire</button>
+              <a class="btn ghost" href="mailto:TrueMovementLab@gmail.com">Prefer email? Send a message</a>
+            </div>
+
+            <div class="tiny">First submission may ask you to confirm the destination email (FormSubmit). After that, submissions go straight through.</div>
+          </form>
+        </div></section>
+      </div>
+    </main>
+    
+<footer>
+  <div class="container footer-inner">
+    <div>
+      <strong>True Movement Lab</strong>
+      <div class="tiny">Online coaching for movement athletes — parkour, climbing, trail, OCR, and beyond.</div>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:TrueMovementLab@gmail.com">Contact: TrueMovementLab@gmail.com</a>
+      <a href="faq.html">FAQs</a>
+      <a href="questionnaire.html">Get Started</a>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+
+    
+<div class="sticky-cta" aria-label="Quick actions">
+  <div class="pill">Questions? <a href="mailto:TrueMovementLab@gmail.com">Email us</a></div>
+  <a class="btn primary cta-btn" href="questionnaire.html">Get Started</a>
+</div>
+
+  </div>
+</body>
+</html>
